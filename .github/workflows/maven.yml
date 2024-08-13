@@ -19,6 +19,6 @@ jobs:
         cache: maven
         
     - name: Run Automation Test
-      run: mvn clean install
+      run: mvn clean install -DCI_CD = true
 
    
